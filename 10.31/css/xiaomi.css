@@ -835,7 +835,7 @@
 	cursor: pointer;
 	z-index: 999;
 }
-.lbtn{
+.banner .lbtn{
 	left: 234px;
 }
 .rbtn{
@@ -844,15 +844,16 @@
 .banner-btn:hover{
 	background-color: rgba(0, 0, 0, .6);
 }
-.banner-pages{
-	width: 140px;
+.banner .banner-pages{
+	width: 140px!important;
 	height: 10px;
 	position: absolute;
 	right: 30px;
-	bottom: 10px;
+	left: auto!important;
+	bottom: 10px!important;
 	z-index: 999;
 }
-.banner-pages li{
+.banner-pages .swiper-pagination-bullet{
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;

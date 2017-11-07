@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人简历</title>
+</head>
+<body>
+	<fieldset>
+		<legend>个人信息</legend>
+		<label for="">姓名</label>
+		<input type="text" value="付文奎" readonly>
+		<br>
+
+		<label for="">性别</label>
+		<label for="">男</label><input type="radio" name="sex" checked>
+		<label for="">女</label><input type="radio" name="sex">
+		<br>
+
+		<label for="">出生日期</label>
+		<input type="date">
+		<br>
+
+		<label for="">年龄</label>
+		<input type="number" max="100" min="18" value="24" step="1">
+		<br>
+
+		<label for="">籍贯</label>
+		<select name="" id="">
+			<option value="">山西省晋中市</option>
+			<option value="">山西省吕梁市</option>
+			<option value="" selected="">山西省太原市</option>
+		</select>
+		<br>
+
+		<label for="">手机号</label>
+		<input type="tel" value="17696263270">
+		<br>
+
+		<label for="">邮箱</label>
+		<input type="email" value="842302567@qq.com">
+		<br>
+
+		<label for="">照片</label>
+		<input type="file">
+
+
+
+
+		<!-- step设置默认增加值 -->
+	</fieldset>
+
+	<fieldset>
+		<legend>项目经验</legend>
+		<label for="">小米</label>
+		<br>
+		<textarea name="" id="" cols="30" rows="10"></textarea>
+		<br>
+		<input type="url" value="https://fwkalx.github.io/xiaomi/10.31/xiaomi.html">
+	</fieldset>
+
+	<fieldset>
+		<legend>个人技能</legend>
+		<label for="">PS</label>
+		<input type="text"><input type="range" min="1" max="10" value="9">
+		<br>
+		<label for="">AI</label>
+		<input type="text"><input type="range" min="1" max="10" value="7">
+	</fieldset>
+
+	<fieldset>
+		<legend>个人评价</legend>
+		<br>
+		<textarea style="width:200px height:100px">
+		</textarea>
+	</fieldset>
+	<fieldset>
+		<legend>个人爱好</legend>
+		<label for="">看书</label>
+		<input type="checkbox" checked>
+		<label for="">读报</label>
+		<input type="checkbox" checked>
+		<!-- 多选按钮 -->
+	</fieldset>
+</body>
+</html>

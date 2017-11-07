@@ -331,7 +331,7 @@
 .jiadian-item3{
 	font-size: 14px;
 	color: #333;
-	padding: 0 15px;
+	margin: 10px 20px;
 }
 .jiadian-item4{
 	font-size: 12px;
@@ -341,7 +341,7 @@
 .jiadian-item5{
 	font-size: 14px;
 	color: #ff7600;
-	padding: 0 70px;
+	padding: 0 70px 20px 70px;
 }
 .jiadian-item:nth-child(3) .jiadian-item1{
 	background-color: yellowgreen;
@@ -379,7 +379,7 @@
 	float: left;
 }
 .jiadian-items2 .jiadian-item5{
-	padding: 0 30px;
+	padding: 0 20px;
 }
 .jiadian-items3{
 	width: 80px;
@@ -718,6 +718,9 @@
 	float: left;
 	font-size: 12px;
 }
+.zuizhong-wenzi1:hover{
+	color: orangered;
+}
 .zuizhong-logo-hezi{
 	width: 57px;
 	height: 57px;
@@ -776,4 +779,126 @@
 }
 .vidio-item2:hover{
 	color: orangered;
+}
+.banner{
+	width: 1226px;
+	height: 460px;
+	background-color: red;
+	margin: 0 auto;
+	position: relative;
+}
+.banner-img{
+	width: 1226px;
+	height: 460px;
+	cursor: pointer;
+}
+.banner-nav{
+	width: 234px;
+	height: 420px;
+	background-color: rgba(0, 0, 0, .6);
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 20px 0;
+	z-index: 999;
+}
+.banner-item{
+	width: 174px;
+	height: 42px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 42px;
+	cursor: pointer;
+	position: relative;
+}
+.banner-item span:nth-child(2){
+	float: right;
+	position: absolute;
+	right: 20px;
+}
+.banner-item:hover{
+	background-color: #ff6700;
+}
+.banner-btn{
+	width: 41px;
+	height: 69px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+	line-height: 69px;
+	font-size: 40px;
+	color: #fff;
+	cursor: pointer;
+	z-index: 999;
+}
+.lbtn{
+	left: 234px;
+}
+.rbtn{
+	right: 0px;
+}
+.banner-btn:hover{
+	background-color: rgba(0, 0, 0, .6);
+}
+.banner-pages{
+	width: 140px;
+	height: 10px;
+	position: absolute;
+	right: 30px;
+	bottom: 10px;
+	z-index: 999;
+}
+.banner-pages li{
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	float: left;
+	margin: 0 5px;
+	border: 2px solid #fff;
+	cursor: pointer;
+}
+.banner-pages li:hover{
+	background-color: #fff;
+}
+.nav-search{
+	width: 296px;
+	height: 50px;
+	float: right;
+	margin: 25px 0;
+}
+.sousuo{
+	width: 243px;
+	height: 48px;
+	border: 1px solid #e0e0e0;
+	text-indent: 26px;
+	float: left;
+	outline: none;
+}
+.sousuo:focus{
+	outline: 1px solid orangered;
+}
+.nav-btn{
+	width: 51px;
+	height: 50px;
+	background-color: #fff;
+	border: 1px solid #e0e0e0;
+	float: right;
+	cursor: pointer;
+}
+.nav-btn:hover{
+	background-color: orangered;
+	color: white;
+}
+.nav-search .iconfont{
+	font-size: 20px;
+}
+.jiadian-item6 h1{
+	font-size: 14px;
+	color: #fff;
+	line-height: 80px;
+	text-align: center;
 }
